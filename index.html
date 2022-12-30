@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mystyle.css" />
+  <title>DudzandDuda</title>
+
+  <style>
+    #dudzpato_img {
+      display: none;
+    }
+
+    #dudzsweat_img {
+      display: none;
+    }
+
+    #dudzfato_img {
+      display: none;
+    }
+
+    #dudzvestido_img {
+      display: none;
+    }
+
+    #text2 {
+      display: none;
+    }
+
+    #text3 {
+      display: none;
+    }
+
+    #images2 {
+      display: none;
+    }
+
+    #images3 {
+      display: none;
+    }
+
+    #images11 {
+      display: none;
+    }
+
+    #cara_img {
+      display: none;
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <nav class="navbar">
+    <div class="logo-image" id="logo-image">
+      <a href="index.html">
+        <img src="res/Logo.JPG" class="logo_img">
+      </a>
+    </div>
+    <div id="navbar_container">
+      <ul class="navbar_menu" style="overflow: hidden; display: flex; justify-content:space-around;">
+        <div class="inline-block" id="home-image">
+          <a href="index.html">
+            <img src="res/Home.JPG" class="home_img" onclick="back()">
+          </a>
+        </div>
+
+        <div class="inline-block" id="work-image">
+          <a href="work.html">
+            <img src="res/Work.JPG" class="work_img">
+
+          </a>
+        </div>
+        <div class="inline-block" id="about-image">
+          <a href="about.html">
+            <img src="res/About.JPG" class="about_img">
+          </a>
+        </div>
+    </div>
+  </nav>
+  <div class"text" id="text">
+    <div class"text" id="text1">
+      <h2 id="p1" style="font-size:2vw;"> Hey! Let's play a game.
+        This is Dudz. <p></p>First, give her something to wear.</h2>
+    </div>
+
+
+
+
+
+    <div class"text" id="text3">
+      <h2 id="p3" style="font-size:2vw;"> Looks great!
+        <p></p>Now, give her a job.
+      </h2>
+    </div>
+
+    <div class"text" id="text2">
+      <h2 id="p2" style="font-size:2vw;"> Nice fit! You're almost done.
+        <p></p>Now, give her something to eat.
+      </h2>
+    </div>
+  </div>
+
+
+
+
+  <div class="Dudz" id="dudz-image">
+    <img src="res/Dudz.JPG" class="dudz_img" id="dudz_img">
+  </div>
+
+
+  <div id="images1" style="position:relative">
+
+    <div class="Fato" id="dudzfato-image">
+      <img src="res/Dudzfato.JPG" class="dudzfato_img" id="dudzfato_img">
+    </div>
+    <div class="Vestido" id="dudzvestido-image">
+      <img src="res/Dudzvestido.JPG" class="dudzvestido_img" id="dudzvestido_img">
+    </div>
+    <div class="Sweat" id="dudzsweat-image">
+      <img src="res/Dudzsweat.JPG" class="dudzsweat_img" id="dudzsweat_img">
+    </div>
+    <div class="Pato" id="dudzpato-image">
+      <img src="res/Dudzpato.JPG" class="dudzpato_img" id="dudzpato_img">
+    </div>
+  </div>
+  <div class="Dudz" id="cara-image">
+    <img src="res/Dudzcara.JPG" class="cara_img" id="cara_img">
+
+  </div>
+
+
+
+
+  <div id="images11" style="position:relative">
+    <div class="Fato" id="dudzfato-image">
+      <img src="res/Dudzfato.JPG" class="finalfato_img" id="dudzfato_img">
+    </div>
+    <div class="Vestido" id="dudzvestido-image">
+      <img src="res/Dudzvestido.JPG" class="dudzvestido_img" id="finalvestido_img">
+    </div>
+
+    <div class="Sweat" id="dudzsweat-image">
+      <img src="res/Dudzsweat.JPG" class="finalsweat_img" id="dudzsweat_img">
+    </div>
+    <div class="Pato" id="dudzpato-image">
+      <img src="res/Dudzpato.JPG" class="finalpato_img" id="dudzpato_img">
+    </div>
+  </div>
+
+  <div id="1_elementos">
+    <div class="inline-block" id="vestido-image">
+      <img src="res/vestido.jpg" class="vestido_img" onclick="showvestido()" draggable="true">
+    </div>
+
+
+    <div class="inline-block" id="sweat-image">
+      <img src="res/sweat.jpg" class="sweat_img" onclick="showsweat()">
+    </div>
+    <div class="inline-block" id="fato-image">
+      <img src="res/fato.jpg" class="fato_img" onclick="showfato()">
+    </div>
+    <div class="inline-block" id="pato-image">
+      <img src="res/pato.jpg" class="pato_img" onclick="showpato()">
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+  <div id="images2" style="position:relative">
+    <div class="inline-block" id="sushi-image">
+      <img src="res/sushi.jpg" class="sushi_img" onclick="showfinal()">
+    </div>
+    <div class="inline-block" id="noodle-image">
+      <img src="res/noodle.jpg" class="noodle_img" onclick="showfinal()">
+    </div>
+    <div class="inline-block" id="batata-image">
+      <img src="res/batata.jpg" class="batata_img" onclick="showfinal()">
+    </div>
+    <div class="inline-block" id="massa-image">
+      <img src="res/massa.jpg" class="massa_img" onclick="showfinal()">
+    </div>
+    <div class="inline-block" id="kebab-image">
+      <img src="res/kebab.jpg" class="kebab_img" onclick="showfinal()">
+    </div>
+    <div class="inline-block" id="pizza-image">
+      <img src="res/pizza.jpg" class="pizza_img" onclick="showfinal()">
+    </div>
+
+  </div>
+
+
+
+
+  <div id="images3" style="position:relative">
+    <div class="inline-block" id="mail" href="mailto:medafbo@gmail.com">
+      <a href="mailto:dudzanduda@gmail.com">
+        <img src="res/Email.jpg" class="email_img">
+    </div>
+
+    <div class="inline-block" id="linkedin-image">
+      <a href="https://www.linkedin.com/in/eduarda-borges-176471195/">
+        <img src="res/Linkedin.jpg" class="back_img">
+      </a>
+    </div>
+    <div class="inline-block" id="inst-image">
+      <a href="https://www.instagram.com/dudzanduda/">
+        <img src="res/Instagram.jpg" class="instagram_img">
+      </a>
+    </div>
+
+    <div class="inline-block" id="beh-image">
+      <a href="https://www.behance.net/eduardaborges3">
+        <img src="res/Behance.jpg" class="behance_img">
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

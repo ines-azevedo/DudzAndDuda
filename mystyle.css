@@ -1,0 +1,190 @@
+.logo_img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home_img {
+  width: 15%;
+  padding-left: 30%;
+}
+
+.work_img {
+  width: 15%;
+  padding-left: 30%;
+}
+
+.about_img {
+  width: 15%;
+  padding-left: 30%;
+}
+
+
+.sweat_img {
+  width: 9%;
+  left: 63%;
+  position: relative;
+  top: 100%;
+}
+
+.vestido_img {
+  width: 9%;
+  left: 27%;
+  position: absolute;
+}
+
+.dudz_img {
+  width: 15%;
+  left: 42%;
+  right: 50%;
+  position: absolute;
+  display: block;
+}
+
+.cara_img {
+  width: 15%;
+  left: 42%;
+  right: 50%;
+  position: relative;
+  display: block;
+}
+
+.dudzfato_img {
+  width: 15%;
+  left: 42%;
+  right: 50%;
+  position: absolute;
+}
+
+.dudzvestido_img {
+  width: 15%;
+  left: 42%;
+  right: 50%;
+  position: absolute;
+}
+
+.dudzsweat_img {
+  width: 15%;
+  left: 42%;
+  right: 50%;
+  position: absolute;
+}
+
+.dudzpato_img {
+  width: 15%;
+  left: 42%;
+  right: 50%;
+  position: absolute;
+}
+
+
+.fato_img {
+  width: 7%;
+  position: absolute;
+  left: 28%;
+  padding-top: 2%;
+}
+
+.pato_img {
+  width: 11%;
+  position: absolute;
+  left: 62%;
+  padding-top: 2%;
+}
+
+.massa_img {
+  width: 10%;
+  left: 28%;
+  top: 298%;
+  position: absolute;
+
+
+}
+
+.pizza_img {
+  width: 9%;
+  position: absolute;
+  left: 28%;
+  top: 2%;
+
+
+
+}
+
+.kebab_img {
+  width: 8%;
+  top: 285%;
+  left: 64%;
+  position: absolute;
+
+
+}
+
+.batata_img {
+  width: 8%;
+  left: 24%;
+  top: 132%;
+  position: absolute;
+
+}
+
+.sushi_img {
+  width: 10%;
+  left: 63%;
+  position: relative;
+  padding-top: 2%;
+
+}
+
+.noodle_img {
+  width: 9%;
+  left: 66%;
+  top: 120%;
+  position: absolute;
+
+
+}
+
+
+
+#text {
+  text-align: center;
+  width: 100%;
+  line-height: 20%;
+  position: relative;
+  top: 50%;
+  font-family: Ruda;
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+
+.back_img {
+  width: 11%;
+  left: 60%;
+  position: absolute;
+  top: -60%;
+}
+
+.behance_img {
+  width: 11%;
+  position: absolute;
+  left: 60%;
+  top: 2%;
+  padding-top: 2%;
+}
+
+.email_img {
+  width: 11%;
+  left: 27%;
+  position: absolute;
+  top: -60%;
+}
+
+.instagram_img {
+  width: 11%;
+  position: relative;
+  left: 27%;
+  top: 98%;
+  padding-top: 2.5%;
+}

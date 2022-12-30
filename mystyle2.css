@@ -1,0 +1,113 @@
+.logo_img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home_img {
+  width: 15%;
+  padding-left: 30%;
+}
+
+.work_img {
+  width: 15%;
+  padding-left: 30%;
+}
+
+.about_img {
+  width: 15%;
+  padding-left: 30%;
+}
+
+.cara_img {
+  width: 15%;
+  left: 42%;
+  right: 50%;
+  position: absolute;
+  display: block;
+}
+
+#texto1 {
+  font-family: Ruda;
+  text-align: center;
+  font-size: 80%;
+  line-height: 25%;
+  position: relative;
+  top: 50%;
+
+  padding-top: 2%;
+}
+
+.eyes {
+  position: relative;
+  top: 50%;
+  display: flex;
+}
+
+.eyes .eye {
+  position: relative;
+  width: 5px;
+  height: 10px;
+  background: #424241;
+  margin: 0 1%;
+  border-radius: 40%;
+  left: 46.5%;
+  padding-bottom: 1%;
+}
+
+
+.container {
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  right: 50%;
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+}
+
+.image {
+  width: 100%;
+  display: block;
+  padding: 0%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #424241;
+  padding-top: 2%;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-family: Ruda;
+  font-size: 150%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  line-height: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
